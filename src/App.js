@@ -1,9 +1,10 @@
 import "./App.css";
+import Weather from "./Weather";
 
 function App() {
   return (
     <div className="App">
-      Heloo!
+      <Weather defaultCity="New York" />
       <footer>
         This project was coded by
         <a href="https://github.com/Zana2234" target="_blank" rel="noreferrer">
